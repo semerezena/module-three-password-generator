@@ -57,7 +57,7 @@ function generatePassword() {
  
   const length = document.getElementById("length");
   let password = "";
-
+//restricts the length of the password to be in between 8 & 128
 if (length.value>128 || length.value<8){
 
 	alert("length Must be between 8 & 128");
